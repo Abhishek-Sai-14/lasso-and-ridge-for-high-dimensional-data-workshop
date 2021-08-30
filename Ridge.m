@@ -2,7 +2,7 @@
 %ridge regression
 %,survived,age,sibsp,parch,fare,1,2,3,female,male,C,Q,S
 
-data=csvread('C:\Users\sai teja\Downloads\lasso and ridge codes\dataset\train.csv');
+data=csvread('C:\Users\abhishek_sai\Downloads\lasso and ridge codes\dataset\train.csv');
  M=891; % number of rows
  N=12;  % number of columns
 percTn=75;
