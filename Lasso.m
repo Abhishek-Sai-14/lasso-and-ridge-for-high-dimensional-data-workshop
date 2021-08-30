@@ -2,7 +2,7 @@
 %lasso regression
 
 %,survived,age,sibsp,parch,fare,1,2,3,female,male,C,Q,S
-data=csvread('C:\Users\sai teja\Downloads\lasso and ridge codes\dataset\train.csv');
+data=csvread('C:\Users\abhishek_sai\Downloads\lasso and ridge codes\dataset\train.csv');
 percTn=75;  % for training we use 75% of the data
 [TnSetF, TnSetL, TtSetF, TtSetL]=SplitTrainTestSet(data,percTn);  % function called from below
 
